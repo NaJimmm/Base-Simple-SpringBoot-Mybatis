@@ -7,9 +7,6 @@ import java.time.LocalDateTime;
  * <p>
  * 
  * </p>
- *
- * @author NaJim
- * @since 2021-10-29
  */
 public class User implements Serializable {
 
@@ -36,7 +33,7 @@ public class User implements Serializable {
     private String fullName;
 
     /**
-     * 性别：0女1男2未知
+     * 性别
      */
     private Integer gender;
 

@@ -7,7 +7,9 @@ k
 ;src/main/java/com/najim/rabbit/generator/FastGenerator.java,6\8\6826c78abb3437eab23046377be891c75d31f12b
 m
 =src/main/java/com/najim/rabbit/controller/UserController.java,6\3\63d4783037f32a194c3e98ecfa4eb37c400d3cad
-q
-Asrc/main/java/com/najim/rabbit/controller/UserInfoController.java,c\0\c06261fe157f62479e408b3b66d1c4ad8b71473e
 _
 /src/main/java/com/najim/rabbit/entity/User.java,0\6\06f986dfeffe0da2c0f5470b77da5c9b47784dfa
+m
+=src/main/java/com/najim/rabbit/controller/TestController.java,7\9\79769acc0917fd396ec53ccf60ae300117830191
+e
+5src/main/java/com/najim/rabbit/mapper/UserMapper.java,f\a\fab80a1ba1ed00a5742741ac0b14f5055f237445

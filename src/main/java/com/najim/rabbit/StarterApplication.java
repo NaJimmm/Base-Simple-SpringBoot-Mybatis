@@ -1,14 +1,14 @@
 package com.najim.rabbit;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author NaJim
- * date 2021-10-29
- * rabbit starter
+ * SpringBoot Starter
  */
 @SpringBootApplication
+@MapperScan("com.najim.rabbit.mapper")
 public class StarterApplication {
 
     public static void main(String[] args) {

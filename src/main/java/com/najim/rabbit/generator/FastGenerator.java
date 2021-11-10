@@ -2,25 +2,23 @@ package com.najim.rabbit.generator;
 
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
 import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
-import java.sql.SQLException;
 import java.util.Arrays;
 
 
 /**
- * @author NaJim
- * date 2021-10-29
+ * 代码生成器，填写好jdbc的URL、userName、password后，直接运行run方法则可以直接生成
  */
 public class FastGenerator {
     /**
      * 执行 run
      */
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/rabbit?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC";
         String username = "root";
         String password = "123456";
-        DataSourceConfig.Builder DATA_SOURCE_CONFIG = new DataSourceConfig
+        DataSourceConfig.Builder dataSourceConfig = new DataSourceConfig
                 .Builder(url, username, password);
-        FastAutoGenerator.create(DATA_SOURCE_CONFIG)
+        FastAutoGenerator.create(dataSourceConfig)
                 // 全局配置
                 .globalConfig((scanner, builder) -> builder.author(scanner.apply("请输入作者名称？")).fileOverride())
                 // 包配置
